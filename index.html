@@ -1,4 +1,4 @@
-<div id="s"></div>
+<div id="d"></div>
 <script>
     require('electron').ipcRenderer.on('ping', (event, message) => {
       document.querySelector("#s").innerHTML = message;
